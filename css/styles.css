@@ -1,0 +1,470 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  padding: 25px;
+}
+
+nav {
+  height: 50px;
+  background-color: #674f8c;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-transform: capitalize;
+}
+nav a {
+  text-decoration: none;
+  color: #ffedd6;
+}
+nav :hover {
+  color: #fcaf58;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+}
+.home header {
+  height: 300px;
+  background-image: url(../assets/images/61ebe454e8342d0857f1ff1d67098025.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home .content {
+  padding: 20px 50px;
+  /* height: %; */
+  background-color: #bba6cc;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.home .content h1 {
+  color: #674f8c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.home .content section .picTextHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.home .content section .picTextHolder img {
+  height: 200px;
+  width: 200px;
+}
+.home .content section .picTextHolder .C1 {
+  color: #da7130;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.home .content section .picTextHolder p {
+  padding-left: 25px;
+  color: #ffedd6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.home .content section .picTextHolder2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.home .content section .picTextHolder2 img {
+  height: 200px;
+  width: 200px;
+}
+.home .content section .picTextHolder2 .C2 {
+  color: #da7130;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.home .content section .picTextHolder2 p {
+  padding-left: 25px;
+  color: #ffedd6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.home .content section .picTextHolder3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.home .content section .picTextHolder3 img {
+  height: 200px;
+  width: 200px;
+}
+.home .content section .picTextHolder3 .C3 {
+  color: #da7130;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.home .content section .picTextHolder3 p {
+  padding-left: 25px;
+  color: #ffedd6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+}
+.about header {
+  height: 300px;
+  background-image: url(../assets/images/61ebe454e8342d0857f1ff1d67098025.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.about .content {
+  padding: 20px 50px;
+  /* height: %; */
+  background-color: #674f8c;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.about .content h1 {
+  color: #fcaf58;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.about .content section .picTextHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.about .content section .picTextHolder img {
+  height: 200px;
+  width: 200px;
+}
+.about .content section .picTextHolder .C1 {
+  color: #bba6cc;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.about .content section .picTextHolder p {
+  padding-left: 25px;
+  color: #da7130;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.about .content section .picTextHolder2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #bba6cc;
+}
+.about .content section .picTextHolder2 img {
+  height: 200px;
+  width: 200px;
+}
+.about .content section .picTextHolder2 .C2 {
+  color: #bba6cc;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.about .content section .picTextHolder2 p {
+  padding-left: 25px;
+  color: #da7130;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.about .content section .picTextHolder3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #bba6cc;
+}
+.about .content section .picTextHolder3 img {
+  height: 200px;
+  width: 200px;
+}
+.about .content section .picTextHolder3 .C3 {
+  color: #bba6cc;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.about .content section .picTextHolder3 p {
+  padding-left: 25px;
+  color: #da7130;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.gallery {
+  height: 100%;
+  width: 100%;
+}
+.gallery header {
+  height: 300px;
+  background-image: url(../assets/images/61ebe454e8342d0857f1ff1d67098025.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery .content {
+  padding: 20px 50px;
+  /* height: %; */
+  background-color: #fcaf58;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.gallery .content h1 {
+  color: #ffedd6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.gallery .content section .picTextHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.gallery .content section .picTextHolder img {
+  height: 200px;
+  width: 200px;
+}
+.gallery .content section .picTextHolder .C1 {
+  color: #674f8c;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.gallery .content section .picTextHolder p {
+  padding-left: 25px;
+  color: #bba6cc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.gallery .content section .picTextHolder2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #bba6cc;
+}
+.gallery .content section .picTextHolder2 img {
+  height: 200px;
+  width: 200px;
+}
+.gallery .content section .picTextHolder2 .C2 {
+  color: #674f8c;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.gallery .content section .picTextHolder2 p {
+  padding-left: 25px;
+  color: #bba6cc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.gallery .content section .picTextHolder3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #674f8c;
+}
+.gallery .content section .picTextHolder3 img {
+  height: 200px;
+  width: 200px;
+}
+.gallery .content section .picTextHolder3 .C3 {
+  color: #674f8c;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.gallery .content section .picTextHolder3 p {
+  padding-left: 25px;
+  color: #bba6cc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.contact {
+  height: 100%;
+  width: 100%;
+}
+.contact header {
+  height: 300px;
+  background-image: url(../assets/images/61ebe454e8342d0857f1ff1d67098025.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contact .content {
+  padding: 20px 50px;
+  /* height: %; */
+  background-color: #da7130;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.contact .content h1 {
+  color: #bba6cc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.contact .content section .picTextHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.contact .content section .picTextHolder img {
+  height: 200px;
+  width: 200px;
+}
+.contact .content section .picTextHolder .C1 {
+  color: #ffedd6;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.contact .content section .picTextHolder p {
+  padding-left: 25px;
+  color: #fcaf58;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.contact .content section .picTextHolder2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #bba6cc;
+}
+.contact .content section .picTextHolder2 img {
+  height: 200px;
+  width: 200px;
+}
+.contact .content section .picTextHolder2 .C2 {
+  color: #ffedd6;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.contact .content section .picTextHolder2 p {
+  padding-left: 25px;
+  color: #fcaf58;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.contact .content section .picTextHolder3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #bba6cc;
+}
+.contact .content section .picTextHolder3 img {
+  height: 200px;
+  width: 200px;
+}
+.contact .content section .picTextHolder3 .C3 {
+  color: #ffedd6;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.contact .content section .picTextHolder3 p {
+  padding-left: 25px;
+  color: #fcaf58;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
